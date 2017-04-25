@@ -1,0 +1,54 @@
+/*----------------------*/
+/*----------------------*/
+/*----Page Preloader----*/ 
+/*----------------------*/
+/*----------------------*/
+
+#preloader {
+	position:fixed;
+	z-index:2500;
+	top:0;
+	left:0;
+	right:0;
+	bottom:0;
+	background-color:#FFF; 
+	z-index:99999999; 
+}
+
+#status {
+	position:fixed;
+	z-index:99999999;
+	width:250px;
+	height:280px;
+	position:absolute;
+	left:50%; 
+	top:50%; 
+    padding-bottom:40px;
+	background-image:url(../images/page-loader.gif); 
+	background-size:64px 64px;
+	background-repeat:no-repeat;
+	background-position:center bottom;
+	margin:-125px 0 0 -125px; 
+}
+
+.preloader-logo{
+    background-image:url(../images/preload-logo.png);
+    background-size:75px 75px;
+    height:75px;
+    width:75px;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom:40px;
+}
+
+#preloader h3{
+    margin-bottom:5px;
+}
+
+
+#status em{
+	font-size:10px!important;
+	display:block;
+	font-style:normal;
+}
