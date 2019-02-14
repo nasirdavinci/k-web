@@ -23,8 +23,7 @@
 	position:absolute;
 	left:50%; 
 	top:50%; 
-    padding-bottom:40px;
-	background-image:url(../images/page-loader.gif); 
+    padding-bottom:40px; 
 	background-size:64px 64px;
 	background-repeat:no-repeat;
 	background-position:center bottom;
@@ -32,7 +31,7 @@
 }
 
 .preloader-logo{
-    background-image:url(../images/preload-logo.png);
+  
     background-size:75px 75px;
     height:75px;
     width:75px;

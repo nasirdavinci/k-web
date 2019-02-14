@@ -28,6 +28,9 @@
         <!-- Favicon -->
         <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
         <link rel="apple-touch-icon" href="img/apple-touch-icon.png">
+		
+		
+		
     </head>
     <!-- End Head -->
 
@@ -276,8 +279,30 @@
             </div>
         </div>
         <!-- End Process -->
+		
+		<div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
 
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title"><i class="fa fa-exclamation-circle"></i>Krinza Education Yard, The success KEY is launched.</h4>
+        </div>
+        <div class="modal-body">
+          Looks like you may be intrested in visiting the key.krinza.com, the page for krinza education yard.
+        </div>
+        <div class="modal-footer">
+         <a href="download.html" 
+		 <button type="button" class="btn btn-default" >Visit key website.</button>
+		 </a>
+        </div>
+      </div>
 
+    </div>
+</div>
+		
+		
       
         <!-- Plan -->
         <div class="g-bg-color--sky-light">
@@ -448,6 +473,11 @@
         <script type="text/javascript" src="js/components/portfolio-4-col-slider.min.js"></script>
         <script type="text/javascript" src="js/components/wow.min.js"></script>
         <!--========== END JAVASCRIPTS ==========-->
+		<script type="text/javascript">
+        $(window).on('load',function(){
+        $('#myModal').modal('show');
+        });
+        </script>
 
     </body>
     <!-- End Body -->
